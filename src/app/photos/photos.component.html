@@ -1,0 +1,46 @@
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Uday's Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a [routerLink]="['/home']" [routerLinkActive]="'active'">Home</a></li>        
+        <li><a [routerLink]="['/friends']" [routerLinkActive]="'active'">Friends</a></li>
+        <li><a [routerLink]="['/family']" [routerLinkActive]="'active'">Family</a></li>
+        <li><a [routerLink]="['/photos']" [routerLinkActive]="'active'">Photos</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>Photo Gallery</small></h4>
+      <div class="album text-muted">
+        <div class="container">
+  
+          <div class="container grid-custom">
+    <div class="row">
+      <div class="col-sm-6 col-xs-12 first-block"><img src="http://placehold.it/600x400/2ecc71/fff" alt="" class="img-responsive"></div>
+        <div class="col-sm-3 col-xs-6"><img src="http://placehold.it/300x205/3498db/fff" alt="" class="img-responsive"></div>
+        <div class="col-sm-3 col-xs-6"><img src="http://placehold.it/300x205/e74c3c/fff" alt="" class="img-responsive"></div>
+        <div class="col-sm-3 col-xs-6"><img src="http://placehold.it/300x205/f1c40f/fff" alt="" class="img-responsive"></div>
+        <div class="col-sm-3 col-xs-6"><img src="http://placehold.it/300x205/9b59b6/fff" alt="" class="img-responsive"></div>
+      </div>
+    </div>
+  
+        </div>
+      </div>
+
+
+
+      
+
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
